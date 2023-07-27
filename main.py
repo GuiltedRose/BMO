@@ -18,6 +18,7 @@ except OSError:
 print("Would you like to go into the 'tools' directory?\n")
 answer = input("Y/n\n")
 
+# we can maybe move this up higher...
 yes_choices = ["yes", "y"]
 no_choices = ["no", "n"]
 
@@ -28,3 +29,4 @@ elif answer.lower() in no_choices:
     print("Okie Then...")
 else:
     print("It's yes or no...")
+
